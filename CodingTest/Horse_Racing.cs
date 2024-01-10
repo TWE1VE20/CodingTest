@@ -8,7 +8,7 @@ namespace CodingTest
 {
     internal class Horse_Racing
     {
-         public string[] solution(string[] players, string[] callings)
+         public string[] horse_racing(string[] players, string[] callings)
         {
             string[] answer = new string[] { };
 
@@ -31,5 +31,18 @@ namespace CodingTest
             return answer;
         }
 
+        public static void ArrayWrite<T>(T[] array)
+        {
+            if (array != null)
+            {
+                Console.Write("[");
+                List<T> list = array.ToList();
+                Console.Write(string.Join(", ", list));
+                Console.WriteLine("]");
+                return;
+            }
+            Console.WriteLine("null");
+        }
     }
+
 }
