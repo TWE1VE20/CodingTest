@@ -31,6 +31,21 @@
             {
 
             }
+
+            public static void ArrayWrite<T>(T[] array)
+            {
+                if (array != null)
+                {
+                    int loop = 0;
+                    Console.Write("[");
+                    List<T> list = array.ToList();
+                    Console.Write(string.Join(", ", list));
+                    Console.WriteLine("]");
+                    return;
+                }
+                Console.WriteLine("null");
+            }
+
         }
     }
 }
