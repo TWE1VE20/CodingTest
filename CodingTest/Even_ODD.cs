@@ -10,12 +10,13 @@ namespace CodingTest
     {
         public void Even_odd()
         {
-            String[] s;
+            //String[] s;
 
-            Console.Clear();
-            s = Console.ReadLine().Split(' ');
+            //Console.Clear();
+            //s = Console.ReadLine().Split(' ');
 
-            int a = Int32.Parse(s[0]);
+            //int a = Int32.Parse(s[0]);
+            int a = 100;
             if (a % 2 == 0)
                 Console.WriteLine($"{a} is even");
             else

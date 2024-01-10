@@ -58,7 +58,7 @@ namespace CodingTest
                 return answer;
             }
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //https://school.programmers.co.kr/learn/courses/30/lessons/120812 풀었다
 
