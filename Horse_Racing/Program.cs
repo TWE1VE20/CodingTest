@@ -29,7 +29,10 @@
 
             static void Main(string[] args)
             {
-
+                string[] players = ["mumu", "soe", "poe", "kai", "mine"];
+                string[] callings = ["kai", "kai", "mine", "mine"];
+                ArrayWrite<string>(solution(players, callings));
+                return;
             }
 
             public static void ArrayWrite<T>(T[] array)
