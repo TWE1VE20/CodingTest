@@ -8,7 +8,7 @@ namespace CodingTest.LHJ
 {
     internal class RemoveSameChar
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("Hello, World!");
             solution("people");
